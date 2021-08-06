@@ -4,7 +4,8 @@
 Songs should be resampled to a standard sample rate before fingerprint storage (for consistency).
 
 Instructions:
-1. Download HDtracks songs into `/wav_raw_sample_rate`
-2. Run `python resample.py`
-3. Upload the standardized sample rate songs in `/wav_std_sample_rate` to Google Drive for use in AMP and AF projects
-4. Run `python cleanup.py`
+1. Run `setup.py` if first time use
+2. Download HDtracks songs into `/wav_raw_sample_rate`
+3. Run `python resample.py`
+4. Upload the standardized sample rate songs in `/wav_std_sample_rate` to Google Drive for use in AMP and AF projects
+5. Run `python cleanup.py`
