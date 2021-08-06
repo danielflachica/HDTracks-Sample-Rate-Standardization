@@ -1,5 +1,7 @@
-# This project is a pre-processing step designed ONLY to be used BEFORE AMP and AF.
-# Songs should be resampled to a standard sample rate before fingerprint storage (for consistency)
+# HDTracks Sample Rate Standardization Project
+
+### This project is a pre-processing step designed ONLY to be used BEFORE AMP and AF. 
+Songs should be resampled to a standard sample rate before fingerprint storage (for consistency).
 
 Instructions:
 1. Download HDtracks songs into wav_raw_sample_rate
