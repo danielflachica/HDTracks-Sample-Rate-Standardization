@@ -7,3 +7,6 @@ def remove_DS_Store(dir):
 
 def get_filename_minus_extension(fpath):
     return os.path.basename(fpath)[:-4]
+
+def execute_script(script, arg=''):
+    os.system(f"python { script } { arg }")

@@ -4,8 +4,6 @@
 Songs should be resampled to a standard sample rate before fingerprint storage (for consistency).
 
 Instructions:
-1. If first time use: Run `pip install -r requirements.txt && setup.py`
-2. Run `python import_album.py <album_dir>` to transfer songs into `/wav_raw_sample_rate`
-3. Run `python resample.py`
-4. Upload the standardized sample rate songs in `/wav_std_sample_rate` to Google Drive for use in AMP and AF projects
-5. Run `python cleanup.py`
+1. If first time use: Run `pip install -r requirements.txt && python setup.py`
+2. Run `python resample_automated.py <album_dir>`
+<!-- 4. Upload the standardized sample rate songs in `/wav_std_sample_rate` to Google Drive for use in AMP and AF projects -->

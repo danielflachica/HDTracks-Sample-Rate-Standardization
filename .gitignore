@@ -2,3 +2,4 @@
 /wav_std_sample_rate
 .DS_Store
 /__pycache__
+/scripts/__pycache__

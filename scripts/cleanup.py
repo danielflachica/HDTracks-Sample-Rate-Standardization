@@ -2,7 +2,7 @@ import os
 import utils
 from termcolor import cprint
 
-BASE_DIR = '/Users/danielflachica/desktop/resample-hdtracks'
+BASE_DIR = '/Users/danielflachica/desktop/thesis/resample-hdtracks'
 
 if __name__=="__main__":
     dirs = [
